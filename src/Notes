@@ -34,3 +34,7 @@
 5. Locators
 
 	The locators are the way to find HTML elements on a web page. We have different locators like ID, class, css, xpath, tagname, name, link.
+	
+6. Absolute Xpath from root html tag and by single slash / but Relative Xpath jumbping into the middle of dom by //
+
+7. If tag name is select it is a static dropdown and it can be handle through Select class.
