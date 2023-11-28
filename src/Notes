@@ -38,3 +38,7 @@
 6. Absolute Xpath from root html tag and by single slash / but Relative Xpath jumbping into the middle of dom by //
 
 7. If tag name is select it is a static dropdown and it can be handle through Select class.
+
+8. CamelCase notation : Classname 
+                        methodName
+                        variableName
