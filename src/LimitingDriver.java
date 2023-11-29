@@ -23,13 +23,14 @@ public class LimitingDriver {
 		int count = columndriver.findElements(By.tagName("a")).size();
 		System.out.println(count);
 
-//		Click on each link and grab the title
+//		Click on each link
 		for (int i = 1; i < count; i++) {
 			String clicklink = Keys.chord(Keys.CONTROL, Keys.ENTER);
 			columndriver.findElements(By.tagName("a")).get(i).sendKeys(clicklink);
 			Thread.sleep(4);
 
 		}
+//		grab the title of each tab
 		Set<String> abc = driver.getWindowHandles();
 		Iterator<String> it = abc.iterator();
 		while (it.hasNext()) {
