@@ -23,7 +23,7 @@ public class LimitingDriver {
 		int count = columndriver.findElements(By.tagName("a")).size();
 		System.out.println(count);
 
-//		Click on each link
+//		Click on each link and check link is working
 		for (int i = 1; i < count; i++) {
 			String clicklink = Keys.chord(Keys.CONTROL, Keys.ENTER);
 			columndriver.findElements(By.tagName("a")).get(i).sendKeys(clicklink);
