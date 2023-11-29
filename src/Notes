@@ -42,3 +42,5 @@
 8. CamelCase notation : Classname 
                         methodName
                         variableName
+                        
+9. In Selenium new tab and new window is treated as new window only.                      
