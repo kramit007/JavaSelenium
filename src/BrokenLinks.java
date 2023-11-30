@@ -21,7 +21,7 @@ public class BrokenLinks {
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		List<WebElement> links = driver.findElements(By.cssSelector("li[class='gf-li'] a"));
 		
-		// Soft assertion will continue after false
+		// Soft assertion will continue after false.
 		SoftAssert a = new SoftAssert();
 		for (WebElement link : links)
 		{
